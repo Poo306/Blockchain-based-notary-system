@@ -81,32 +81,31 @@ Setup Instructions
    npx hardhat run scripts/interact.cjs --network localhost
 
 Privacy Notice
-We never upload your actual file. Only the hash is registered.
-Your document remains 100% private and secure.
+   -We never upload your actual file. Only the hash is registered.
+   -Your document remains 100% private and secure.
 
 License
-This project is licensed under the BSD-2-Clause License.
+   -This project is licensed under the BSD-2-Clause License.
 
 Acknowledgments
-This project is originally based on the open-source Blockchain Notary DApp by Jan Paricka, licensed under the BSD 2-Clause License.
+   -This project is originally based on the open-source Blockchain Notary DApp by Jan Paricka, licensed under the BSD 2-Clause License.
 
 Modifications in this fork include:
 
-Improved deployment and interaction scripts
+   -Improved deployment and interaction scripts
 
-Updated error handling and console output
+   -Updated error handling and console output
 
-Clarified usage and setup steps
+   -Clarified usage and setup steps
 
-Integration testing with Ganache and Hardhat
+   -Integration testing with Ganache and Hardhat
 
-All original license terms are respected and retained.
+   -All original license terms are respected and retained.
 
 Notice
-This repository contains modifications of the original "Blockchain Notary" by Jan Paricka (2018),
-licensed under the BSD-2-Clause License. The modifications were made by Pooja R in 2025 for academic purposes.
+   -This repository contains modifications of the original "Blockchain Notary" by Jan Paricka (2018), licensed under the BSD-2-Clause License. The modifications were made by Pooja R in 2025 for academic purposes.
 
 Donation
-If you liked this project, consider donating:
+   -If you liked this project, consider donating:
 
 ETH: 0xbcFAB06E0cc4Fe694Bdf780F1FcB1bB143bD93Ad
