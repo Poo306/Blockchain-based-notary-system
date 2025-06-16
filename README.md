@@ -25,11 +25,11 @@ This DApp **registers a unique cryptographic hash** of your document onto the bl
 
 How It Works
 
-1. 🧾 A user selects a document (e.g., PDF, image).
-2. 🔐 The app computes its **SHA-256 hash**.
-3. 📤 That hash is submitted to the **Notarise smart contract**.
-4. ✅ The contract logs the `msg.sender` and `timestamp`.
-5. 🔍 The file hash can be queried anytime to verify ownership and time.
+1. A user selects a document (e.g., PDF, image).
+2. The app computes its **SHA-256 hash**.
+3. That hash is submitted to the **Notarise smart contract**.
+4. The contract logs the `msg.sender` and `timestamp`.
+5. The file hash can be queried anytime to verify ownership and time.
 
 ---
 
