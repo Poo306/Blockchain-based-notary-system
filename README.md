@@ -65,20 +65,20 @@ Setup Instructions
    git clone https://github.com/Poo306/blockchain-notary.git
    cd blockchain-notary
 Install dependencies
-```bash
-npm install
+   ```bash
+   npm install
 
 Run Ganache or Hardhat local node
-```bash
-npx hardhat node
+   ```bash
+   npx hardhat node
 
 Deploy the contract
-```bash
-npx hardhat run scripts/deploy.cjs --network localhost
+   ```bash
+   npx hardhat run scripts/deploy.cjs --network localhost
 
 Run the interaction script
-```bash
-npx hardhat run scripts/interact.cjs --network localhost
+   ```bash
+   npx hardhat run scripts/interact.cjs --network localhost
 
 Privacy Notice
 We never upload your actual file. Only the hash is registered.
