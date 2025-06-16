@@ -60,7 +60,8 @@ blockchain-notary/
 
 Setup Instructions
 
-1. Clone this repo
+1. **Clone this repo**
+   ``bash
    git clone https://github.com/Poo306/blockchain-notary.git
    cd blockchain-notary
 Install dependencies
