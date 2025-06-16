@@ -35,11 +35,11 @@ How It Works
 
 Technologies Used
 
-- 🧠 **Solidity** — for the Notarise smart contract  
-- ⚒ **Hardhat** — development and testing framework  
-- 🔗 **Ganache** or **Hardhat Network** — local blockchain simulation  
-- 📦 **Node.js & Ethers.js** — for backend scripting  
-- 🌐 (Optional) HTML/JS frontend  
+- **Solidity** — for the Notarise smart contract  
+- **Hardhat** — development and testing framework  
+- **Ganache** or **Hardhat Network** — local blockchain simulation  
+- **Node.js & Ethers.js** — for backend scripting  
+- (Optional) HTML/JS frontend  
 
 ---
 
