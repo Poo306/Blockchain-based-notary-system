@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8" />
+  <title>Notary Service programmed by Jan Paricka</title>
+  <script src="{% static 'vendors/jquery/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/abi.js' %}"></script>
+  <script src="{% static 'vendors/dropzone/dropzone.js' %}"></script>
+  <script src="{% static 'vendors/jquery.formatNumber-master/jquery.formatNumber-0.1.1.min.js' %}"></script>
+  <script src="{% static 'vendors/standford-javascript-crypto-library/sjcl.js' %}"></script>
+  <script src="{% static 'js/pages/index.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs.min.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs-query.min.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs-contract.min.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs-filter.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+  <link rel="shortcut icon" type="image/png" href="/static/images/favicon.ico"/>
+</head>
+
+<body>
+
+  
+  {% block content %}{% endblock content %}
+
+  {% include "google_analytics.html" %}
+
+
+</body>
+
+</html>

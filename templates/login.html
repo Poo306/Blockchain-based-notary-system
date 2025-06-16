@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8" />
+  <title>Blockchain Notary</title>
+  <script src="{% static 'vendors/jquery/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/pages/index.js' %}"></script>
+  <script src="{% static 'js/modal.js' %}"></script>
+  <script src="{% static 'vendors/abi/abi.js' %}"></script>
+  <script src="{% static 'vendors/dropzone/dropzone.js' %}"></script>
+  <script src="{% static 'js/notarise.js' %}"></script>
+  <script src="{% static 'vendors/jquery.formatNumber-master/jquery.formatNumber-0.1.1.min.js' %}"></script>
+  <script src="{% static 'vendors/standford-javascript-crypto-library/sjcl.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs.min.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs-query.min.js' %}"></script>
+  <script src="{% static 'vendors/ethjs/ethjs-contract.min.js' %}"></script>
+  <script type="text/javascript">
+    if (screen.width <= 768) {
+      document.location = "/about";
+    }
+  </script>
+  <script src="{% static 'js/modal.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+</head>
+
+<body>
+
+
+<main>
+  <!-- main content -->
+  <div class="center form-page">
+
+    <div class="form-wrap box-form">
+      {% if err %}
+        <div class="error">failed login attempt</div>
+      {% endif %}
+      <form action="/login/" method='POST' class='form-validate' id="register"><!-- form -->
+            <h2>Private Members</h2>
+              {% csrf_token %}
+            <div class="input-wrap">
+              <input type="text" name="username" value="username">
+            </div>
+            <div class="input-wrap">
+              <input type="password" name="password" value="password">
+            </div>
+            <div class="submit-wrap">
+              <input type="submit" value="Login">
+            </div>
+            {% comment %}
+                    <div class="social-sigin">
+                      <a class="fb-login" href="#">Login with Facebook</a>
+                      <a class="google-login" href="#">Sign in with Google+</a>
+                    </div>
+            {% endcomment %}
+      </form><!-- form END -->
+    </div>
+    {% comment %}
+    <p class="not-member"><span>Not a member yet?</span><a href="/register">Register</a></p>
+    {% endcomment %}
+    <p class="not-member"><span>Invitation only zone</p>
+
+  </div>
+  <!-- main content END -->
+</main>
+
+</body>
+</html>
